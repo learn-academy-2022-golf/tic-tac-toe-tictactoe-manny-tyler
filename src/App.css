@@ -16,3 +16,11 @@ h1 {
   width: 320px;
   margin: 0 auto;
 }
+
+button {
+  height: 50px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 25px;
+  align-content: center;
+}
