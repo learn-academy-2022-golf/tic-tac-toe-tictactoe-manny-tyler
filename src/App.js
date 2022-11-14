@@ -11,10 +11,6 @@ const App = () => {
     setSquares(updatedSquares)
   }
 
-  const refreshPage = () => {
-    window.location.reload()
-  }
-
   return (
     <>
       <h1>Tic Tac Toe</h1>
@@ -29,9 +25,6 @@ const App = () => {
             />
           )
         })}
-        <button type="submit" onClick={refreshPage}>
-          Restart
-        </button>
       </div>
     </>
   )
