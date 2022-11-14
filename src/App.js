@@ -5,7 +5,11 @@ import './App.css'
 const App = () => {
   const [squares, setSquares] = useState(Array(9).fill(null))
 
-
+  const handleGamePlay = (index) => {
+    let updatedSquares = [...squares]
+    updatedSquares[index] = "❌"
+    setSquares(updatedSquares)
+  }
 
   return (
     <>
@@ -17,6 +21,7 @@ const App = () => {
               value={value}
               key={index}
               index={index}
+              handleGamePlay={handleGamePlay}
             />
           )
         })}
