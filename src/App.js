@@ -17,62 +17,58 @@ const App = () => {
       setSquares(updatedSquares)
       setCounter(counter + 1)
     } 
-        if (updatedSquares[0] === "❌" && updatedSquares[1] === "❌" && updatedSquares[2] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if(updatedSquares[3] === "❌" && updatedSquares[4] === "❌" && updatedSquares[5] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[6] === "❌" && updatedSquares[7] === "❌" && updatedSquares[8] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[0] === "❌" && updatedSquares[3] === "❌" && updatedSquares[6] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[1] === "❌" && updatedSquares[4] === "❌" && updatedSquares[7] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[2] === "❌" && updatedSquares[5] === "❌" && updatedSquares[8] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[0] === "❌" && updatedSquares[4] === "❌" && updatedSquares[8] === "❌") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[2] === "❌" && updatedSquares[4] === "❌" && updatedSquares[6] === "❌") {
-          return alert("YOU WIN!")
-        }
+      if (updatedSquares[0] === "❌" && updatedSquares[1] === "❌" && updatedSquares[2] === "❌") {
+        return alert("YOU WIN!")
+        // maybe something goes here to disable the page after winner declaration
+      }
+      else if (updatedSquares[3] === "❌" && updatedSquares[4] === "❌" && updatedSquares[5] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[6] === "❌" && updatedSquares[7] === "❌" && updatedSquares[8] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[0] === "❌" && updatedSquares[3] === "❌" && updatedSquares[6] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[1] === "❌" && updatedSquares[4] === "❌" && updatedSquares[7] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[2] === "❌" && updatedSquares[5] === "❌" && updatedSquares[8] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[0] === "❌" && updatedSquares[4] === "❌" && updatedSquares[8] === "❌") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[2] === "❌" && updatedSquares[4] === "❌" && updatedSquares[6] === "❌") {
+        return alert("YOU WIN!")
+      }
 
-        else if (updatedSquares[0] === "⭕️" && updatedSquares[1] === "⭕️" && updatedSquares[2] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if(updatedSquares[3] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[5] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[6] === "⭕️" && updatedSquares[7] === "⭕️" && updatedSquares[8] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[0] === "⭕️" && updatedSquares[3] === "⭕️" && updatedSquares[6] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[1] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[7] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[2] === "⭕️" && updatedSquares[5] === "⭕️" && updatedSquares[8] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[0] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[8] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        else if (updatedSquares[2] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[6] === "⭕️") {
-          return alert("YOU WIN!")
-        }
-        
-           
-
-    
-  } 
+      else if (updatedSquares[0] === "⭕️" && updatedSquares[1] === "⭕️" && updatedSquares[2] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if(updatedSquares[3] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[5] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[6] === "⭕️" && updatedSquares[7] === "⭕️" && updatedSquares[8] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[0] === "⭕️" && updatedSquares[3] === "⭕️" && updatedSquares[6] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[1] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[7] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[2] === "⭕️" && updatedSquares[5] === "⭕️" && updatedSquares[8] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[0] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[8] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+      else if (updatedSquares[2] === "⭕️" && updatedSquares[4] === "⭕️" && updatedSquares[6] === "⭕️") {
+        return alert("YOU WIN!")
+      }
+  }
   
-
   return (
     <>
       <h1>Tic Tac Toe</h1>
