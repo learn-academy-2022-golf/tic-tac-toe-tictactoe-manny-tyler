@@ -14,7 +14,6 @@ const Square = (props) => {
       disabled = {props.value === "❌" || props.value === "⭕️" }>
         {props.value}
       </button> 
-     
     </> 
   ) 
 }
