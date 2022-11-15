@@ -4,8 +4,7 @@ const Square = (props) => {
 
   const handleClick = () => {
     props.handleGamePlay(props.index)
-    // if (handleClick clicked once
-    // then return stopping refresh.
+    
   }
 
   return (
@@ -14,7 +13,6 @@ const Square = (props) => {
       disabled = {props.value === "❌" || props.value === "⭕️" }>
         {props.value}
       </button> 
-     
     </> 
   ) 
 }
