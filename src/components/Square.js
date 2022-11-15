@@ -4,15 +4,19 @@ const Square = (props) => {
 
   const handleClick = () => {
     props.handleGamePlay(props.index)
+    // if (handleClick clicked once
+    // then return stopping refresh.
   }
 
   return (
     <>
-      <div className="square" onClick={handleClick}>
+      <button className="square" onClick={handleClick} 
+      disabled = {props.value === "❌" || props.value === "⭕️" }>
         {props.value}
-      </div>
-    </>
-  )
+      </button> 
+     
+    </> 
+  ) 
 }
 
 export default Square

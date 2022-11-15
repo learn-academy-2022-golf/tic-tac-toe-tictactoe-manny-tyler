@@ -17,7 +17,9 @@ const App = () => {
       setSquares(updatedSquares)
       setCounter(counter + 1)
     }
-  }
+    // console.log(updatedSquares)
+  } 
+  
 
   return (
     <>
